@@ -1,27 +1,47 @@
-# ExpertSsr
+## Expert-SSR
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.4.
+#
 
-## Development server
+> This project is by Angular v18 with Server-Side Rendering (SSR).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+#### Development and Automate Search Engine Optimization (SEO) Data
 
-## Code scaffolding
+-   I created an service for:-
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+    `-   Get SEO data from API.`
+    `-   Set Canonical URL for pages.`
+    `-   Set SEO data for pages.`
 
-## Build
+-   I created an interface for data coming from the API.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+-   I created two components and routes to set up the SEO data testing.
 
-## Running unit tests
+    `1. Get SEO data from API.`
+    `2. Set Canonical URL for this Route.`
+    `3. Set SEO data for [title, keywords, description, robots and ect...]`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+-   Installed and configured the ngx-sitemap package to generate a sitemap.xml file.
 
-## Running end-to-end tests
+#### How to regenerate XML sitemap
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```sh
+npm run build
+```
 
-## Further help
+###### This command will build the project and make a sitemap.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+##### OR
+
+```sh
+npm run postbuild
+```
+
+###### This command will generate the sitemap if you have a dist folder of the App.
+
+#### Dependencies
+
+[ngx-sitemap](https://github.com/remy-marthaler/ngx-sitemap)
+
+#
+
+_Thank you_
