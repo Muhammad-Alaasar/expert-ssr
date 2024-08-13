@@ -6,19 +6,19 @@
 
 #### Development and Automate Search Engine Optimization (SEO) Data
 
--   I created an service for:-
+-   I created a service for:-
 
-    `-   Get SEO data from API.`
-    `-   Set Canonical URL for pages.`
-    `-   Set SEO data for pages.`
+    -   Get SEO data from API.
+    -   Set Canonical URL for pages.
+    -   Set SEO data for pages.
 
 -   I created an interface for data coming from the API.
 
 -   I created two components and routes to set up the SEO data testing.
 
-    `1. Get SEO data from API.`
-    `2. Set Canonical URL for this Route.`
-    `3. Set SEO data for [title, keywords, description, robots and ect...]`
+    1. Get SEO data from API.
+    2. Set the Canonical URL for this Route.
+    3. Set SEO data for [title, keywords, description, robots, etc...]
 
 -   Installed and configured the ngx-sitemap package to generate a sitemap.xml file.
 
